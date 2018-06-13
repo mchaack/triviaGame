@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Skydiving Trivia</title>
+</head>
+
+<body>
+                
+    <!-- Timer -->
+    <div>You have <span id="time">05:00</span> minutes!</div>
+
+    
+    <title>Skydiving Trivia Game</title>
+  
+
+    
+    <div id = startPage>
+        
+        <h1 class = "Title">Skydiving Trivia</h1>
+
+        <button id = startButton>Start</button>
+
+    </div>
+
+
+    <!-- Questions/Answers -->
+    <div id = questionPage>
+         
+        <h1 class = "logo">Skydiving Trivia</h1>
+       
+        <h1>1. What is the definition of terminal velocity?</h1>
+        <!-- B -->
+            <input type="radio" name="q1" value="The g-force of a parachute upon opening.">The g-force of a parachute upon opening. 
+            <input type="radio" name="q1" value="The greatest speed a falling object is capable of reaching.">The greatest speed a falling object is capable of reaching. 
+            <input type="radio" name="q1" value="The rate at which an object accelerates.">The rate at which an object accelerates. 
+            
+
+        <h1>2. Who originally set the world record for longest freefall in 1960?</h1>
+        <!-- C -->
+            <input type="radio" name="q2" value="D.B.Cooper">D.B.Cooper
+            <input type="radio" name="q2" value="Felix Baumgartner">Felix Baumgartner 
+            <input type="radio" name="q2" value="Joe Kittinger">Joe Kittinger 
+            
+
+        <h1>3. What do we call the designated area skydivers go to jump?</h1>
+        <!-- A -->
+            <input type="radio" name="q3" value="The Drop Zone">The Drop Zone 
+            <input type="radio" name="q3" value="The Jump Zone">The Jump Zone
+            <input type="radio" name="q3" value="The End Zone">The End Zone
+            
+
+        <h1>4. How many parachutes are in the typical skydiving system?</h1>
+        <!-- B -->
+            <input type="radio" name="q4" value="1">1
+            <input type="radio" name="q4" value="2">2
+            <input type="radio" name="q4" value="9 3/4">9 3/4
+
+
+        <h1>5. What organization regulates safety and training standards for skydivers in the United States?</h1>
+        <!-- A  -->
+            <input type="radio" name="q5" value="USPA">USPA
+            <input type="radio" name="q5" value="FAA">FAA
+            <input type="radio" name="q5" value="TSA">TSA
+        
+
+        <h1>6. Which Dropzone owns the largest private fleet of aircraft in the world?</h1>
+        <!-- C -->
+            <input type="radio" name="q6" value="Skydive Paraclete XP, NC">Skydive Paraclete XP, NC
+            <input type="radio" name="q6" value="Skydive Chicago, IL">Skydive Chicago, IL
+            <input type="radio" name="q6" value="Skydive Arizona, AZ">Skydive Arizona, AZ
+            
+
+        <h1>7. What type of skydiving allows you to jump with zero experience, all while harnessed to your instructor?</h1>
+        <!-- B -->
+            <input type="radio" name="q7" value="Static Line Skydiving">Static Line Skydiving
+            <input type="radio" name="q7" value="Tandem Skydiving">Tandem Skydiving
+            <input type="radio" name="q7" value="AFF Skydiving">AFF Skydiving 
+        
+
+        <h1>8. There are many types of skydiving harnesses. What is the range for tensile strength in your average skydiving harness?</h1>
+        <!-- B -->
+            <input type="radio" name="q8" value="100-700lbs">100-700lbs
+            <input type="radio" name="q8" value="1000-7000lbs">1000-7000lbs
+            <input type="radio" name="q8" value="The world may never know.">The world may never know.
+        
+
+        <h1>9. Should the skydiver be unable to, an Automatic Activation Device uses which parameters to determine when to automatically deploy a parachute?</h1>
+        <!-- C -->
+            <input type="radio" name="q9" value="Altitude">Altitude 
+            <input type="radio" name="q9" value="Speed of Descent">Speed of Descent  
+            <input type="radio" name="q9" value="Both A and B">Both A and B 
+            
+
+        <h1>10. Minimum number of jumps a licensed skydiver must complete to qualify for a Tandem Instructor training program?</h1>
+        <!-- A -->
+            <input type="radio" name="q10" value="500">500
+            <input type="radio" name="q10" value="250">250
+            <input type="radio" name="q10" value="100">100
+
+
+        <h1>11. What is a "Hop and Pop"?</h1>
+        <!-- A -->
+            <input type="radio" name="q11" value="A lower altitude jump.">A lower altitude jump.
+            <input type="radio" name="q11" value="A higher altitude jump.">A higher altitude jump.
+            <input type="radio" name="q11" value="A jump with a parachute malfunction.">A jump with a parachute malfunction.
+
+            
+        <h1>12. How many bungee jumps is a skydiving student required to complete as part of their A license training?</h1>
+        <!-- C -->
+            <input type="radio" name="q12" value="1">1
+            <input type="radio" name="q12" value="10">10
+            <input type="radio" name="q12" value="Zero. Even skydivers think bungee jumping is a bad idea.">Zero. Even skydivers think bungee jumping is a bad idea.    
+            
+            <br>
+
+
+        <button id = doneButton>Done!</button>
+
+    </div>
+
+    <!-- End of the game -->
+    <div id = scorePage>
+        <!-- Static Game Logo -->
+        <h1 class = "logo">Skydiving Trivia</h1>
+
+        <h1><div id = finalImage>
+        <img src = "assets/images/wylieparachute.gif" alt = "parachute humor" width = "300" height = "200">
+    </div></h1>
+        <br>
+
+        <h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+        <h1>Incorrect Answers: <span id = "wrong_answers">0</span></h1>
+        <h1>Unanswered: <span id = "unanswered">0</span></h1>
+               
+    </div>
+    <div id = firstImage>
+        <img src = "assets/images/cessna.gif" alt = "skydiving humor" width = "500" height = "300">
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+	background-image: url("../images/cloudsBackground4.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.Title{
+	font-size: 75px;
+	color: black;
+	font-weight: bold;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#startPage {
+	height: auto;
+	padding-bottom: 50px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+#startButton{
+	margin-top: 5%;
+	height: 75px;
+	width: 200px;
+	font-size: 35px;
+  	background-color:whitesmoke;
+	border-style: double;
+	border-color: black;
+	border-radius: 8px;
+}
+
+#questionPage {
+	box-sizing: border-box;
+	text-align: center;
+	color: black;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+h1{
+	font-size: 26px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+#doneButton{
+	margin-top: 5%;
+	height: 75px;
+	width: 200px;
+	font-size: 35px;
+	border-style: double;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 8px;
+}
+
+#scorePage {
+	height: auto;
+	padding-bottom: 50px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: black;
+}
